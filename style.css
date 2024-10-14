@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    font-family: "Inter";
+}
+
+/* Menu superior */
+#menusuperior{
+    background-color: #303030;
+    color: #FFFFFF;
+}
+
+#texto-menusuperior{
+    padding-left: 60px;
+    padding-top: 160px;
+    padding-bottom: 140px;
+}
+
+#titulo-menusuperior{
+    font-weight: 500;
+    font-size: 50px;
+}
+
+#paragrafo-menusuperior{
+    margin-top: 20px;
+}
+
+/* Menu apresentação */
+#apresentacao{
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    padding-left: 150px;
+    padding-top: 100px;
+    padding-bottom: 90px;
+}
+
+.texto-apresentacao{
+    margin-top: 5px;
+}
+
+/* Seção sobre */
+#secaosobre{
+    display: grid;
+    grid-auto-flow: column;
+    padding-top: 90px;
+    padding-left: 90px;
+    padding-bottom: 90px;
+}
+
+#texto-secaosobre{
+    margin-top: 170px;
+}
+
+#titulo-secaosobre{
+    font-weight: 500;
+}
+
+#paragrafo-secaosobre{
+    margin-top: 50px;
+    font-size: large;
+}
+
+/* Seção formulário */
+#secao-formulario{
+    background-color: #303030;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#titulo-formulario{
+    padding-top: 80px;
+}
+
+input{
+    width: 350px;
+    height: 45px;
+    margin-top: 50px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 0px;
+}
+
+button{
+    background-color: #C07212;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: 0px;
+    font-size: large;
+    width: 250px;
+    height: 40px;
+    margin-top: 65px;
+    margin-bottom: 80px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #f3980fd8;
+    transform: translateY(-7px);
+    transition: 0.5s;
+}
